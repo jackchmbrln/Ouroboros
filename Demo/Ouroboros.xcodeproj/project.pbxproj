@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		046859F31DB3EDAF007386A3 /* OULoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046859F11DB3EDAF007386A3 /* OULoadingTableViewCell.swift */; };
-		046859F41DB3EDAF007386A3 /* OULoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046859F21DB3EDAF007386A3 /* OULoadingTableViewCell.xib */; };
+		044735791E9E6EC40097E2A8 /* OULoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044735761E9E6EC40097E2A8 /* OULoadingTableViewCell.swift */; };
+		0447357A1E9E6EC40097E2A8 /* OULoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044735771E9E6EC40097E2A8 /* OULoadingTableViewCell.xib */; };
+		0447357B1E9E6EC40097E2A8 /* OUTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044735781E9E6EC40097E2A8 /* OUTableView.swift */; };
 		04A2F8281DA6CAD0009D41B3 /* OUTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2F8261DA6CAD0009D41B3 /* OUTableViewCell.swift */; };
 		04A2F8291DA6CAD0009D41B3 /* OUTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A2F8271DA6CAD0009D41B3 /* OUTableViewCell.xib */; };
 		04EEC0151DA6A39C005875C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC0141DA6A39C005875C9 /* AppDelegate.swift */; };
@@ -18,7 +19,6 @@
 		04EEC01F1DA6A39C005875C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EEC01D1DA6A39C005875C9 /* LaunchScreen.storyboard */; };
 		04EEC02A1DA6A39C005875C9 /* OuroborosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC0291DA6A39C005875C9 /* OuroborosTests.swift */; };
 		04EEC0351DA6A39C005875C9 /* OuroborosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC0341DA6A39C005875C9 /* OuroborosUITests.swift */; };
-		04EEC0431DA6A3B9005875C9 /* OUTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC0421DA6A3B9005875C9 /* OUTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		046859F11DB3EDAF007386A3 /* OULoadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OULoadingTableViewCell.swift; sourceTree = "<group>"; };
-		046859F21DB3EDAF007386A3 /* OULoadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OULoadingTableViewCell.xib; sourceTree = "<group>"; };
+		044735761E9E6EC40097E2A8 /* OULoadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OULoadingTableViewCell.swift; sourceTree = "<group>"; };
+		044735771E9E6EC40097E2A8 /* OULoadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OULoadingTableViewCell.xib; sourceTree = "<group>"; };
+		044735781E9E6EC40097E2A8 /* OUTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OUTableView.swift; sourceTree = "<group>"; };
 		04A2F8261DA6CAD0009D41B3 /* OUTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OUTableViewCell.swift; sourceTree = "<group>"; };
 		04A2F8271DA6CAD0009D41B3 /* OUTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OUTableViewCell.xib; sourceTree = "<group>"; };
 		04EEC0111DA6A39C005875C9 /* Ouroboros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ouroboros.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +57,6 @@
 		04EEC0301DA6A39C005875C9 /* OuroborosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OuroborosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EEC0341DA6A39C005875C9 /* OuroborosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuroborosUITests.swift; sourceTree = "<group>"; };
 		04EEC0361DA6A39C005875C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04EEC0421DA6A3B9005875C9 /* OUTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OUTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,22 +107,14 @@
 			name = Demo;
 			sourceTree = "<group>";
 		};
-		042208C01E9E6B4400F101A6 /* Ouro */ = {
+		044735751E9E6E9A0097E2A8 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				04EEC0421DA6A3B9005875C9 /* OUTableView.swift */,
-				046859F01DB3ED71007386A3 /* Loading Cell */,
+				044735761E9E6EC40097E2A8 /* OULoadingTableViewCell.swift */,
+				044735771E9E6EC40097E2A8 /* OULoadingTableViewCell.xib */,
+				044735781E9E6EC40097E2A8 /* OUTableView.swift */,
 			);
-			name = Ouro;
-			sourceTree = "<group>";
-		};
-		046859F01DB3ED71007386A3 /* Loading Cell */ = {
-			isa = PBXGroup;
-			children = (
-				046859F11DB3EDAF007386A3 /* OULoadingTableViewCell.swift */,
-				046859F21DB3EDAF007386A3 /* OULoadingTableViewCell.xib */,
-			);
-			name = "Loading Cell";
+			name = Framework;
 			sourceTree = "<group>";
 		};
 		04EEC0081DA6A39C005875C9 = {
@@ -149,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				042208BF1E9E6B2200F101A6 /* Demo */,
-				042208C01E9E6B4400F101A6 /* Ouro */,
+				044735751E9E6E9A0097E2A8 /* Framework */,
 			);
 			path = Ouroboros;
 			sourceTree = "<group>";
@@ -240,7 +232,7 @@
 				TargetAttributes = {
 					04EEC0101DA6A39C005875C9 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 24YXH5V8GV;
+						DevelopmentTeam = 7D3783UL8U;
 						ProvisioningStyle = Automatic;
 					};
 					04EEC0241DA6A39C005875C9 = {
@@ -285,7 +277,7 @@
 				04EEC01F1DA6A39C005875C9 /* LaunchScreen.storyboard in Resources */,
 				04EEC01C1DA6A39C005875C9 /* Assets.xcassets in Resources */,
 				04EEC01A1DA6A39C005875C9 /* Main.storyboard in Resources */,
-				046859F41DB3EDAF007386A3 /* OULoadingTableViewCell.xib in Resources */,
+				0447357A1E9E6EC40097E2A8 /* OULoadingTableViewCell.xib in Resources */,
 				04A2F8291DA6CAD0009D41B3 /* OUTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,10 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EEC0431DA6A3B9005875C9 /* OUTableView.swift in Sources */,
+				044735791E9E6EC40097E2A8 /* OULoadingTableViewCell.swift in Sources */,
+				0447357B1E9E6EC40097E2A8 /* OUTableView.swift in Sources */,
 				04EEC0171DA6A39C005875C9 /* ViewController.swift in Sources */,
 				04EEC0151DA6A39C005875C9 /* AppDelegate.swift in Sources */,
-				046859F31DB3EDAF007386A3 /* OULoadingTableViewCell.swift in Sources */,
 				04A2F8281DA6CAD0009D41B3 /* OUTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,7 +457,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 24YXH5V8GV;
+				DEVELOPMENT_TEAM = 7D3783UL8U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ouroboros",
+				);
 				INFOPLIST_FILE = Ouroboros/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.jackchmbrln.Ouroboros;
@@ -478,7 +474,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 24YXH5V8GV;
+				DEVELOPMENT_TEAM = 7D3783UL8U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ouroboros",
+				);
 				INFOPLIST_FILE = Ouroboros/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.jackchmbrln.Ouroboros;

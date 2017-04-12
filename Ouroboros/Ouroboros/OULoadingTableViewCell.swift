@@ -8,17 +8,17 @@
 
 import UIKit
 
-class OULoadingTableViewCell: UITableViewCell {
+public class OULoadingTableViewCell: UITableViewCell {
 
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         self.activityIndicator.startAnimating()
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    override public func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state

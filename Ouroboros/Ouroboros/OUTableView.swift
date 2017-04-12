@@ -84,7 +84,7 @@ public class OUTableView: UITableView {
       addSubview(refreshControl!)
    }
    
-   func reload() {
+   public func reload() {
       dataCount = [[1]]
       page = 1
       infiniteLoading = true

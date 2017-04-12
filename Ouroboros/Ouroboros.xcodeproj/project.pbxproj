@@ -10,6 +10,9 @@
 		046AA3981E9E6BAB004705D4 /* Ouroboros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046AA38E1E9E6BAB004705D4 /* Ouroboros.framework */; };
 		046AA39D1E9E6BAB004705D4 /* OuroborosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AA39C1E9E6BAB004705D4 /* OuroborosTests.swift */; };
 		046AA39F1E9E6BAB004705D4 /* Ouroboros.h in Headers */ = {isa = PBXBuildFile; fileRef = 046AA3911E9E6BAB004705D4 /* Ouroboros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046AA3AB1E9E6BCB004705D4 /* OULoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AA3A81E9E6BCB004705D4 /* OULoadingTableViewCell.swift */; };
+		046AA3AC1E9E6BCB004705D4 /* OULoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046AA3A91E9E6BCB004705D4 /* OULoadingTableViewCell.xib */; };
+		046AA3AD1E9E6BCB004705D4 /* OUTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AA3AA1E9E6BCB004705D4 /* OUTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		046AA3971E9E6BAB004705D4 /* OuroborosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OuroborosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046AA39C1E9E6BAB004705D4 /* OuroborosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuroborosTests.swift; sourceTree = "<group>"; };
 		046AA39E1E9E6BAB004705D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046AA3A81E9E6BCB004705D4 /* OULoadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OULoadingTableViewCell.swift; sourceTree = "<group>"; };
+		046AA3A91E9E6BCB004705D4 /* OULoadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OULoadingTableViewCell.xib; sourceTree = "<group>"; };
+		046AA3AA1E9E6BCB004705D4 /* OUTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OUTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				046AA3911E9E6BAB004705D4 /* Ouroboros.h */,
+				046AA3AA1E9E6BCB004705D4 /* OUTableView.swift */,
+				046AA3A81E9E6BCB004705D4 /* OULoadingTableViewCell.swift */,
+				046AA3A91E9E6BCB004705D4 /* OULoadingTableViewCell.xib */,
 				046AA3921E9E6BAB004705D4 /* Info.plist */,
 			);
 			path = Ouroboros;
@@ -148,6 +157,7 @@
 				TargetAttributes = {
 					046AA38D1E9E6BAB004705D4 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					046AA3961E9E6BAB004705D4 = {
@@ -179,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046AA3AC1E9E6BCB004705D4 /* OULoadingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046AA3AB1E9E6BCB004705D4 /* OULoadingTableViewCell.swift in Sources */,
+				046AA3AD1E9E6BCB004705D4 /* OUTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +335,7 @@
 		046AA3A31E9E6BAB004705D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -333,6 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = uk.jackchmbrln.Ouroboros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -340,6 +355,7 @@
 		046AA3A41E9E6BAB004705D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -358,6 +374,7 @@
 		046AA3A61E9E6BAB004705D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = OuroborosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.jackchmbrln.OuroborosTests;
@@ -369,6 +386,7 @@
 		046AA3A71E9E6BAB004705D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = OuroborosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.jackchmbrln.OuroborosTests;
