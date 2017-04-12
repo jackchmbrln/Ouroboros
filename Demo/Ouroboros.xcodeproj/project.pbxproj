@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046859F31DB3EDAF007386A3 /* OULoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046859F11DB3EDAF007386A3 /* OULoadingTableViewCell.swift */; };
+		046859F41DB3EDAF007386A3 /* OULoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046859F21DB3EDAF007386A3 /* OULoadingTableViewCell.xib */; };
+		04A2F8281DA6CAD0009D41B3 /* OUTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2F8261DA6CAD0009D41B3 /* OUTableViewCell.swift */; };
+		04A2F8291DA6CAD0009D41B3 /* OUTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A2F8271DA6CAD0009D41B3 /* OUTableViewCell.xib */; };
 		04EEC0151DA6A39C005875C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC0141DA6A39C005875C9 /* AppDelegate.swift */; };
 		04EEC0171DA6A39C005875C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC0161DA6A39C005875C9 /* ViewController.swift */; };
 		04EEC01A1DA6A39C005875C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EEC0181DA6A39C005875C9 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		04EEC01F1DA6A39C005875C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EEC01D1DA6A39C005875C9 /* LaunchScreen.storyboard */; };
 		04EEC02A1DA6A39C005875C9 /* OuroborosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC0291DA6A39C005875C9 /* OuroborosTests.swift */; };
 		04EEC0351DA6A39C005875C9 /* OuroborosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC0341DA6A39C005875C9 /* OuroborosUITests.swift */; };
+		04EEC0431DA6A3B9005875C9 /* OUTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC0421DA6A3B9005875C9 /* OUTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046859F11DB3EDAF007386A3 /* OULoadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OULoadingTableViewCell.swift; sourceTree = "<group>"; };
+		046859F21DB3EDAF007386A3 /* OULoadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OULoadingTableViewCell.xib; sourceTree = "<group>"; };
+		04A2F8261DA6CAD0009D41B3 /* OUTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OUTableViewCell.swift; sourceTree = "<group>"; };
+		04A2F8271DA6CAD0009D41B3 /* OUTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OUTableViewCell.xib; sourceTree = "<group>"; };
 		04EEC0111DA6A39C005875C9 /* Ouroboros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ouroboros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EEC0141DA6A39C005875C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04EEC0161DA6A39C005875C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		04EEC0301DA6A39C005875C9 /* OuroborosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OuroborosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EEC0341DA6A39C005875C9 /* OuroborosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuroborosUITests.swift; sourceTree = "<group>"; };
 		04EEC0361DA6A39C005875C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EEC0421DA6A3B9005875C9 /* OUTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OUTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042208BE1E9E6B1000F101A6 /* Table view cell */ = {
+			isa = PBXGroup;
+			children = (
+				04A2F8261DA6CAD0009D41B3 /* OUTableViewCell.swift */,
+				04A2F8271DA6CAD0009D41B3 /* OUTableViewCell.xib */,
+			);
+			name = "Table view cell";
+			sourceTree = "<group>";
+		};
+		042208BF1E9E6B2200F101A6 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				04EEC0141DA6A39C005875C9 /* AppDelegate.swift */,
+				04EEC0161DA6A39C005875C9 /* ViewController.swift */,
+				042208BE1E9E6B1000F101A6 /* Table view cell */,
+				04EEC0181DA6A39C005875C9 /* Main.storyboard */,
+				04EEC01B1DA6A39C005875C9 /* Assets.xcassets */,
+				04EEC01D1DA6A39C005875C9 /* LaunchScreen.storyboard */,
+				04EEC0201DA6A39C005875C9 /* Info.plist */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		042208C01E9E6B4400F101A6 /* Ouro */ = {
+			isa = PBXGroup;
+			children = (
+				04EEC0421DA6A3B9005875C9 /* OUTableView.swift */,
+				046859F01DB3ED71007386A3 /* Loading Cell */,
+			);
+			name = Ouro;
+			sourceTree = "<group>";
+		};
+		046859F01DB3ED71007386A3 /* Loading Cell */ = {
+			isa = PBXGroup;
+			children = (
+				046859F11DB3EDAF007386A3 /* OULoadingTableViewCell.swift */,
+				046859F21DB3EDAF007386A3 /* OULoadingTableViewCell.xib */,
+			);
+			name = "Loading Cell";
+			sourceTree = "<group>";
+		};
 		04EEC0081DA6A39C005875C9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +148,8 @@
 		04EEC0131DA6A39C005875C9 /* Ouroboros */ = {
 			isa = PBXGroup;
 			children = (
-				04EEC0141DA6A39C005875C9 /* AppDelegate.swift */,
-				04EEC0161DA6A39C005875C9 /* ViewController.swift */,
-				04EEC0181DA6A39C005875C9 /* Main.storyboard */,
-				04EEC01B1DA6A39C005875C9 /* Assets.xcassets */,
-				04EEC01D1DA6A39C005875C9 /* LaunchScreen.storyboard */,
-				04EEC0201DA6A39C005875C9 /* Info.plist */,
+				042208BF1E9E6B2200F101A6 /* Demo */,
+				042208C01E9E6B4400F101A6 /* Ouro */,
 			);
 			path = Ouroboros;
 			sourceTree = "<group>";
@@ -238,6 +285,8 @@
 				04EEC01F1DA6A39C005875C9 /* LaunchScreen.storyboard in Resources */,
 				04EEC01C1DA6A39C005875C9 /* Assets.xcassets in Resources */,
 				04EEC01A1DA6A39C005875C9 /* Main.storyboard in Resources */,
+				046859F41DB3EDAF007386A3 /* OULoadingTableViewCell.xib in Resources */,
+				04A2F8291DA6CAD0009D41B3 /* OUTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EEC0431DA6A3B9005875C9 /* OUTableView.swift in Sources */,
 				04EEC0171DA6A39C005875C9 /* ViewController.swift in Sources */,
 				04EEC0151DA6A39C005875C9 /* AppDelegate.swift in Sources */,
+				046859F31DB3EDAF007386A3 /* OULoadingTableViewCell.swift in Sources */,
+				04A2F8281DA6CAD0009D41B3 /* OUTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +564,7 @@
 				04EEC03B1DA6A39C005875C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EEC03C1DA6A39C005875C9 /* Build configuration list for PBXNativeTarget "OuroborosTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +573,7 @@
 				04EEC03E1DA6A39C005875C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EEC03F1DA6A39C005875C9 /* Build configuration list for PBXNativeTarget "OuroborosUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +582,7 @@
 				04EEC0411DA6A39C005875C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
