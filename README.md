@@ -32,16 +32,17 @@ The same three functions exist for `OUCollectionView` as part of `OUInfinityColl
 
 `func collectionView(_ collectionView: OUCollectionView, willFetchDataAt page: Int, completion: @escaping OUCompletionBlock)`
 
- `func collectionView(_ collectionView: OUCollectionView, cellForRowAt indexPath: IndexPath) -> UICollectionViewCell`
+	 func collectionView(_ collectionView: OUCollectionView, cellForRowAt indexPath: IndexPath) -> UICollectionViewCell
 
- `func collectionView DidReload(_ collectionView: OUCollectionView)`
+	 func collectionView DidReload(_ collectionView: OUCollectionView)
 
 ### Loading cell
 
 A default loading cell is provided by Ouroboros but you can override this by doing 
 
-`myInfiniteTableView.loadingCellIdentifier = "CustomLoadingCell"`
+	myInfiniteTableView.loadingCellIdentifier = "CustomLoadingCell"
 
 When setting this you have to ensure that the nib name and reuse identifier are the same or it will cause an exception.
+
 
 [image-1]:	https://raw.githubusercontent.com/jackchmbrln/Ouroboros/master/ouro_logo@2x.png
