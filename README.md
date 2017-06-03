@@ -4,7 +4,7 @@ A super simple framework for creating infinitely loading table and collection vi
 
 Ouroboros extends off of `UITableView` and `UICollectionView` to make creating infinitely scrolling lists as effortless as possible. Instead of using the default UIKit classes uses `OUTableView` and `OUCollectionView`
 
-## OUTableView
+## \#OUTableView
 
 When creating a table view instead of using `UITableViewDataSource` and `UITableViewDelegate`make your class adhere to the `OUInfinityTableDelegate` protocol.
 
@@ -25,5 +25,23 @@ This is the same as the default `cellForRowAtIndexPath` - return the cell that y
 This is called everytime the table view is refreshed via the `UIRefreshControl`.
 
 After this the majority of the functions associated with `UITableViewDelegate` and `UITableViewDataSource` are implemented as part of `OUInfinityTableDelegate `
+
+### OUCollectionView
+
+The same three functions exist for `OUCollectionView` as part of `OUInfinityCollectionDelegate`:
+
+`func collectionView(_ collectionView: OUCollectionView, willFetchDataAt page: Int, completion: @escaping OUCompletionBlock)`
+
+ `func collectionView(_ collectionView: OUCollectionView, cellForRowAt indexPath: IndexPath) -> UICollectionViewCell`
+
+ `func collectionView DidReload(_ collectionView: OUCollectionView)`
+
+### Loading cell
+
+A default loading cell is provided by Ouroboros but you can override this by doing 
+
+`myInfiniteTableView.loadingCellIdentifier = "CustomLoadingCell"`
+
+When setting this you have to ensure that the nib name and reuse identifier are the same or it will cause an exception.
 
 [image-1]:	https://raw.githubusercontent.com/jackchmbrln/Ouroboros/master/ouro_logo@2x.png
