@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04EEC0101DA6A39C005875C9"
-               BuildableName = "Ouroboros.app"
-               BlueprintName = "Ouroboros"
-               ReferencedContainer = "container:Ouroboros.xcodeproj">
+               BuildableName = "Ouroboros Demo.app"
+               BlueprintName = "Ouroboros Demo"
+               ReferencedContainer = "container:Ouroboros Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04EEC0241DA6A39C005875C9"
-               BuildableName = "OuroborosTests.xctest"
-               BlueprintName = "OuroborosTests"
-               ReferencedContainer = "container:Ouroboros.xcodeproj">
+               BuildableName = "Ouroboros DemoTests.xctest"
+               BlueprintName = "Ouroboros DemoTests"
+               ReferencedContainer = "container:Ouroboros Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04EEC02F1DA6A39C005875C9"
-               BuildableName = "OuroborosUITests.xctest"
-               BlueprintName = "OuroborosUITests"
-               ReferencedContainer = "container:Ouroboros.xcodeproj">
+               BuildableName = "Ouroboros DemoUITests.xctest"
+               BlueprintName = "Ouroboros DemoUITests"
+               ReferencedContainer = "container:Ouroboros Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04EEC0101DA6A39C005875C9"
-            BuildableName = "Ouroboros.app"
-            BlueprintName = "Ouroboros"
-            ReferencedContainer = "container:Ouroboros.xcodeproj">
+            BuildableName = "Ouroboros Demo.app"
+            BlueprintName = "Ouroboros Demo"
+            ReferencedContainer = "container:Ouroboros Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04EEC0101DA6A39C005875C9"
-            BuildableName = "Ouroboros.app"
-            BlueprintName = "Ouroboros"
-            ReferencedContainer = "container:Ouroboros.xcodeproj">
+            BuildableName = "Ouroboros Demo.app"
+            BlueprintName = "Ouroboros Demo"
+            ReferencedContainer = "container:Ouroboros Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04EEC0101DA6A39C005875C9"
-            BuildableName = "Ouroboros.app"
-            BlueprintName = "Ouroboros"
-            ReferencedContainer = "container:Ouroboros.xcodeproj">
+            BuildableName = "Ouroboros Demo.app"
+            BlueprintName = "Ouroboros Demo"
+            ReferencedContainer = "container:Ouroboros Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0435AFA41EE1AB8900FE86EE /* OUCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435AFA31EE1AB8900FE86EE /* OUCollectionView.swift */; };
+		04692E931EE2DB26007FDF93 /* OUCollectionLoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04692E911EE2DB26007FDF93 /* OUCollectionLoadingCell.swift */; };
+		04692E941EE2DB26007FDF93 /* OUCollectionLoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04692E921EE2DB26007FDF93 /* OUCollectionLoadingCell.xib */; };
 		046AA3981E9E6BAB004705D4 /* Ouroboros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046AA38E1E9E6BAB004705D4 /* Ouroboros.framework */; };
 		046AA39D1E9E6BAB004705D4 /* OuroborosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AA39C1E9E6BAB004705D4 /* OuroborosTests.swift */; };
 		046AA39F1E9E6BAB004705D4 /* Ouroboros.h in Headers */ = {isa = PBXBuildFile; fileRef = 046AA3911E9E6BAB004705D4 /* Ouroboros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0435AFA31EE1AB8900FE86EE /* OUCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OUCollectionView.swift; sourceTree = "<group>"; };
+		04692E911EE2DB26007FDF93 /* OUCollectionLoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OUCollectionLoadingCell.swift; sourceTree = "<group>"; };
+		04692E921EE2DB26007FDF93 /* OUCollectionLoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OUCollectionLoadingCell.xib; sourceTree = "<group>"; };
 		046AA38E1E9E6BAB004705D4 /* Ouroboros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ouroboros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		046AA3911E9E6BAB004705D4 /* Ouroboros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ouroboros.h; sourceTree = "<group>"; };
 		046AA3921E9E6BAB004705D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +88,9 @@
 				046AA3A81E9E6BCB004705D4 /* OULoadingTableViewCell.swift */,
 				046AA3A91E9E6BCB004705D4 /* OULoadingTableViewCell.xib */,
 				046AA3921E9E6BAB004705D4 /* Info.plist */,
+				0435AFA31EE1AB8900FE86EE /* OUCollectionView.swift */,
+				04692E911EE2DB26007FDF93 /* OUCollectionLoadingCell.swift */,
+				04692E921EE2DB26007FDF93 /* OUCollectionLoadingCell.xib */,
 			);
 			path = Ouroboros;
 			sourceTree = "<group>";
@@ -189,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04692E941EE2DB26007FDF93 /* OUCollectionLoadingCell.xib in Resources */,
 				046AA3AC1E9E6BCB004705D4 /* OULoadingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +219,8 @@
 			files = (
 				046AA3AB1E9E6BCB004705D4 /* OULoadingTableViewCell.swift in Sources */,
 				046AA3AD1E9E6BCB004705D4 /* OUTableView.swift in Sources */,
+				04692E931EE2DB26007FDF93 /* OUCollectionLoadingCell.swift in Sources */,
+				0435AFA41EE1AB8900FE86EE /* OUCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +426,7 @@
 				046AA3A41E9E6BAB004705D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046AA3A51E9E6BAB004705D4 /* Build configuration list for PBXNativeTarget "OuroborosTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				046AA3A71E9E6BAB004705D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

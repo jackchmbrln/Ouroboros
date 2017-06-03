@@ -1,0 +1,10 @@
+framework module Ouroboros {
+  umbrella header "Ouroboros.h"
+
+  export *
+  module * { export * }
+}
+
+module Ouroboros.Swift {
+    header "Ouroboros-Swift.h"
+}
