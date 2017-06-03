@@ -509,6 +509,7 @@
 					"$(PROJECT_DIR)/Ouroboros",
 				);
 				INFOPLIST_FILE = Ouroboros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.jackchmbrln.OuroborosDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,6 +527,7 @@
 					"$(PROJECT_DIR)/Ouroboros",
 				);
 				INFOPLIST_FILE = Ouroboros/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.jackchmbrln.OuroborosDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -31,7 +31,7 @@ class ViewController: UIViewController {
   }
 }
 
-extension ViewController: OUInfinityTableDelegate, UITableViewDelegate {
+extension ViewController: OUInfinityTableDelegate {
   
   func tableView(_ tableView: OUTableView, willFetchDataAt page: Int, completion: @escaping (Bool, [Int]) -> Void) {
     NSLog("Fetch data")
