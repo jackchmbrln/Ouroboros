@@ -10,6 +10,8 @@ When creating a table view instead of using `UITableViewDataSource` and `UITable
 
 This protocol has 3 main functions:
 
-`func tableView(_ tableView: OUTableView, willFetchDataAt page: Int, completion: @escaping OUCompletionBlock)
-  func tableView(_ tableView: OUTableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
-  func tableViewDidReload(_ tableView: OUTableView)`
+`func tableView(_ tableView: OUTableView, willFetchDataAt page: Int, completion: @escaping OUCompletionBlock)  
+
+ func tableView(_ tableView: OUTableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell  
+ 
+ func tableViewDidReload(_ tableView: OUTableView)`  
