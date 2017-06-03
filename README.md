@@ -46,6 +46,8 @@ When setting this you have to ensure that the nib name and reuse identifier are 
 
 ### Example
 
+See the Demo Project for a fully working example of `OUTableView` and `OUCollectionView`
+
 	extension ViewController: OUInfinityTableDelegate {
 	  
 	  func tableView(_ tableView: OUTableView, willFetchDataAt page: Int, completion: @escaping (Bool, [Int]) -> Void) {
