@@ -32,9 +32,9 @@ The same three functions exist for `OUCollectionView` as part of `OUInfinityColl
 
 	func collectionView(_ collectionView: OUCollectionView, willFetchDataAt page: Int, completion: @escaping OUCompletionBlock)
 
-	 func collectionView(_ collectionView: OUCollectionView, cellForRowAt indexPath: IndexPath) -> UICollectionViewCell
+	func collectionView(_ collectionView: OUCollectionView, cellForRowAt indexPath: IndexPath) -> UICollectionViewCell
 
-	 func collectionView DidReload(_ collectionView: OUCollectionView)
+	func collectionView DidReload(_ collectionView: OUCollectionView)
 
 ### Loading cell
 
@@ -93,6 +93,5 @@ See the Demo Project for a fully working example of `OUTableView` and `OUCollect
 	    data = Array<String>()
 	  }
 	}
-
 
 [image-1]:	https://raw.githubusercontent.com/jackchmbrln/Ouroboros/master/ouro_logo@2x.png

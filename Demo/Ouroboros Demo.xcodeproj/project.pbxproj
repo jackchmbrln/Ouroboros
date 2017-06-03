@@ -10,8 +10,9 @@
 		04692E6D1EE2C79C007FDF93 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04692E6C1EE2C79C007FDF93 /* CollectionViewController.swift */; };
 		04692E761EE2CC97007FDF93 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04692E741EE2CC97007FDF93 /* CollectionViewCell.swift */; };
 		04692E771EE2CC97007FDF93 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04692E751EE2CC97007FDF93 /* CollectionViewCell.xib */; };
-		04692E971EE2DB49007FDF93 /* Ouroboros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04692E951EE2DB44007FDF93 /* Ouroboros.framework */; };
-		04692E981EE2DB49007FDF93 /* Ouroboros.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04692E951EE2DB44007FDF93 /* Ouroboros.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04692E9A1EE2E3DC007FDF93 /* Ouroboros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04692E991EE2E3DC007FDF93 /* Ouroboros.framework */; };
+		04692E9B1EE2E3E1007FDF93 /* Ouroboros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04692E991EE2E3DC007FDF93 /* Ouroboros.framework */; };
+		04692E9C1EE2E3E1007FDF93 /* Ouroboros.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04692E991EE2E3DC007FDF93 /* Ouroboros.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04A2F8281DA6CAD0009D41B3 /* OUTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2F8261DA6CAD0009D41B3 /* OUTableViewCell.swift */; };
 		04A2F8291DA6CAD0009D41B3 /* OUTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A2F8271DA6CAD0009D41B3 /* OUTableViewCell.xib */; };
 		04EEC0151DA6A39C005875C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEC0141DA6A39C005875C9 /* AppDelegate.swift */; };
@@ -47,7 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04692E981EE2DB49007FDF93 /* Ouroboros.framework in Embed Frameworks */,
+				04692E9C1EE2E3E1007FDF93 /* Ouroboros.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,7 +59,7 @@
 		04692E6C1EE2C79C007FDF93 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		04692E741EE2CC97007FDF93 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		04692E751EE2CC97007FDF93 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
-		04692E951EE2DB44007FDF93 /* Ouroboros.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ouroboros.framework; sourceTree = "<group>"; };
+		04692E991EE2E3DC007FDF93 /* Ouroboros.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ouroboros.framework; sourceTree = "<group>"; };
 		04A2F8261DA6CAD0009D41B3 /* OUTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OUTableViewCell.swift; sourceTree = "<group>"; };
 		04A2F8271DA6CAD0009D41B3 /* OUTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OUTableViewCell.xib; sourceTree = "<group>"; };
 		04EEC0111DA6A39C005875C9 /* Ouroboros Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ouroboros Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,7 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04692E971EE2DB49007FDF93 /* Ouroboros.framework in Frameworks */,
+				04692E9A1EE2E3DC007FDF93 /* Ouroboros.framework in Frameworks */,
+				04692E9B1EE2E3E1007FDF93 /* Ouroboros.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +127,7 @@
 		044735751E9E6E9A0097E2A8 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				04692E951EE2DB44007FDF93 /* Ouroboros.framework */,
+				04692E991EE2E3DC007FDF93 /* Ouroboros.framework */,
 			);
 			name = Framework;
 			sourceTree = "<group>";

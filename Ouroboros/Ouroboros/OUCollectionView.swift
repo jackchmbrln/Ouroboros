@@ -69,6 +69,8 @@ public class OUCollectionView: UICollectionView {
     self.setup()
   }
   
+  var reloadControl: UIRefreshControl?
+  
   // MARK: Setup
   
   private func setup() -> Void {
@@ -83,9 +85,9 @@ public class OUCollectionView: UICollectionView {
     let loadingCellNib = UINib(nibName: loadingCellIdentifier, bundle: bundle)
     register(loadingCellNib, forCellWithReuseIdentifier: loadingCellIdentifier)
     
-    refreshControl = UIRefreshControl()
-    refreshControl?.addTarget(self, action: #selector(reload), for: .valueChanged)
-    addSubview(refreshControl!)
+    reloadControl = UIRefreshControl()
+    reloadControl?.addTarget(self, action: #selector(reload), for: .valueChanged)
+    addSubview(reloadControl!)
   }
   
   public func reload() {
@@ -95,7 +97,7 @@ public class OUCollectionView: UICollectionView {
     infinityDelegate?.collectionViewDidReload(self)
     infinityDelegate?.collectionView(self, willFetchDataAtPage: self.page, completion: { (infiniteLoading, data) in
       self.handleResponse(infiniteLoading: infiniteLoading, count: data)
-      self.refreshControl?.endRefreshing()
+      self.reloadControl?.endRefreshing()
       return
     })
   }
